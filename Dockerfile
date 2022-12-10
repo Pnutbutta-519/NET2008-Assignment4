@@ -2,8 +2,8 @@
 
 FROM python:3
 
-ADD app.py /
+ADD alexvohsemer_assignment4.py /
 
 RUN pip3 install requests
 
-CMD [ "python3", "./app.py"]
+CMD [ "python3", "./alexvohsemer_assignment4.py"]
